@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encrypted Vault</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>🔐 Encrypted Vault</h1>
+
+<textarea id="plaintext" placeholder="Enter text/Result"></textarea>
+
+<br>
+
+<input type="password" id="password" placeholder="Password">
+<br>
+<button onclick="encryptText()">Encrypt</button>
+<br>
+<button onclick="decryptText()">Decrypt</button>
+
+<textarea id="output" placeholder="Result/Information to Decrypt"></textarea>
+
+<script src="script.js"></script>
+<script>
+if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>

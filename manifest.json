@@ -1,0 +1,8 @@
+{
+  "name":"Encrypted Vault",
+  "short_name":"Vault",
+  "display":"standalone",
+  "start_url":"./",
+  "background_color":"#ffffff",
+  "theme_color":"#000000"
+}
