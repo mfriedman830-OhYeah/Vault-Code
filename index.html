@@ -14,17 +14,14 @@
 
 <input type="password" id="password" placeholder="Password">
 <br>
+<div class="button-container">
 <button onclick="encryptText()">Encrypt</button>
-<br>
-<button onclick="decryptText()">Decrypt</button>
 
+<button onclick="decryptText()">Decrypt</button>
+</div>
 <textarea id="output" placeholder="Result/Information to Decrypt"></textarea>
 
 <script src="script.js"></script>
-<script>
-if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('sw.js');
-}
-</script>
+
 </body>
 </html>
